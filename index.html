@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checklist Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="checklist-container">
+        <div class="progress-circle">
+            <svg viewBox="0 0 36 36">
+                <path class="circle-bg"
+                      d="M18 2.0845
+                         a 15.9155 15.9155 0 0 1 0 31.831
+                         a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path class="circle"
+                      d="M18 2.0845
+                         a 15.9155 15.9155 0 0 1 0 31.831
+                         a 15.9155 15.9155 0 0 1 0 -31.831" />
+            </svg>
+            <span>0/7</span>
+        </div>
+        <div class="checklist-info">
+            <div class="checklist-title">
+                <span>Чеклист</span>
+            </div>
+            <div class="checklist-status">
+                <span>Выполнено: 0 из 7 действий</span>
+            </div>
+            <div class="next-action">
+                <span>Следующее действие: Созвониться с клиентом до 23.05.24 12:00</span>
+            </div>
+        </div>
+        <button class="open-checklist-button">Открыть чеклист</button>
+    </div>
+</body>
+</html>
